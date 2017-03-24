@@ -15,6 +15,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void init() {
         Log.d("who", "init: 我的方法");
+        Log.d("who", "init: 我的方法");
+        Log.d("who", "init: 我的方法");
+        Log.d("who", "init: 我的方法");
 
        /* final TextInputLayout inputLayout = (TextInputLayout) findViewById(R.id.textInput);
         inputLayout.setHint("请输入姓名:");
