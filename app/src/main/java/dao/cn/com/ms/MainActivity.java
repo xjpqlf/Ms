@@ -2,6 +2,7 @@ package dao.cn.com.ms;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void init() {
+        Log.d("who", "init: 我");
 
        /* final TextInputLayout inputLayout = (TextInputLayout) findViewById(R.id.textInput);
         inputLayout.setHint("请输入姓名:");
@@ -54,8 +56,8 @@ public class MainActivity extends AppCompatActivity {
                     });
                 }
             });
-        }*/
-
+        }
+*/
 
 /*
     ViewPager viewPager = (ViewPager) findViewById(R.id.viewPager);
